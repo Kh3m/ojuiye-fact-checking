@@ -61,6 +61,32 @@ exists right now versus what is planned:
 - Escalation to a human fact-checker when no verified source matches
 - An observer dashboard tracking claims by state and language
 
+## The bigger picture
+
+Right now, when a document is signed, that signature proves it was
+checked and entered by OjuIye's own verification process. That is a
+meaningful improvement over trusting content at face value, but it is
+not the strongest version of this idea.
+
+The stronger version is source-side signing: INEC and Yiaga holding
+their own signing keys and attaching a signature to a statement at the
+moment they publish it. If that existed, verification would no longer
+depend on trusting OjuIye's judgment at all. Anyone could confirm a
+piece of content genuinely came from INEC or Yiaga, no matter where
+they actually encountered it, reposted on an unrelated blog, quoted in
+a news article, or forwarded through several WhatsApp groups, since the
+proof of origin would travel with the content itself rather than living
+in a separate corpus someone else assembled. That would turn the
+question from "did OjuIye vouch for this" into "can this be
+mathematically traced back to INEC or Yiaga directly," which is a much
+harder claim for disinformation to fake.
+
+This is the same underlying idea behind provenance standards like C2PA,
+now being applied to text and civic statements instead of images. It
+depends on INEC and Yiaga's own cooperation to implement, so it sits on
+the roadmap rather than in the current build, but it is the direction
+this project is ultimately working toward.
+
 ## Setup
 
 This project uses [uv](https://github.com/astral-sh/uv) for dependency
@@ -69,6 +95,16 @@ management.
 ```bash
 uv sync
 ```
+
+## Demo corpus sources
+
+The six documents currently in the corpus are paraphrased from real,
+dated news reporting on INEC and Yiaga Africa statements, not lifted
+verbatim. Each document's exact source is attached to it directly in
+`src/knowledge_base.py` under the `source_url` field. These are
+secondhand news reports, not INEC or Yiaga's own primary pages, and
+should be replaced with primary-source statements before any real
+deployment.
 
 ## Languages
 

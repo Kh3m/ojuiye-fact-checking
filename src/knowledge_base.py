@@ -22,6 +22,7 @@ LEGITIMATE_DOCS = [
         "id": "doc_001",
         "source": "INEC",
         "source_detail": "Statement by National Commissioner Mohammed Kudu Haruna, 3 July 2026",
+        "source_url": "https://blueprint.ng/2027-elections-inec-extends-voter-registration/",
         "title": "INEC extends Continuous Voter Registration by two weeks",
         "text": (
             "INEC extended the nationwide Continuous Voter Registration exercise "
@@ -39,6 +40,7 @@ LEGITIMATE_DOCS = [
         "id": "doc_002",
         "source": "INEC",
         "source_detail": "Reporting on INEC's Continuous Voter Registration close, 25-26 July 2026",
+        "source_url": "https://dailytrust.com/2027-inec-records-over-6m-new-voters/",
         "title": "Continuous Voter Registration closes with 6.88 million new registrants",
         "text": (
             "The Continuous Voter Registration exercise closed on 26 July 2026 "
@@ -54,6 +56,7 @@ LEGITIMATE_DOCS = [
         "id": "doc_003",
         "source": "INEC",
         "source_detail": "Statement by INEC Chairman Prof. Joash Amupitan, early September 2026",
+        "source_url": "https://www.vanguardngr.com/2026/09/2027-polls-voter-register-nears-100m-inec/",
         "title": "INEC voter register approaches 100 million ahead of 2027 polls",
         "text": (
             "INEC Chairman Prof. Joash Amupitan announced that the national "
@@ -70,6 +73,7 @@ LEGITIMATE_DOCS = [
         "id": "doc_004",
         "source": "Yiaga",
         "source_detail": "Pre-election press conference, Osogbo, 13-14 August 2026",
+        "source_url": "https://leadership.ng/osun-2026-yiaga-africa-says-election-will-test-inec-security-agencies-readiness-for-2027-polls/",
         "title": "Yiaga Africa deploys observers ahead of Osun governorship election",
         "text": (
             "Ahead of the 15 August 2026 Osun State governorship election, "
@@ -88,6 +92,7 @@ LEGITIMATE_DOCS = [
         "id": "doc_005",
         "source": "Yiaga",
         "source_detail": "Post-election press conference, Osogbo, statement by Dr Asmau Maikudi, August 2026",
+        "source_url": "https://businessday.ng/news/article/osun-election-shows-inec-can-deliver-credible-election-yiaga-africa/",
         "title": "Yiaga Africa says Osun election shows INEC can deliver a credible process",
         "text": (
             "Following the Osun State governorship election, Yiaga Africa said "
@@ -107,6 +112,7 @@ LEGITIMATE_DOCS = [
         "id": "doc_006",
         "source": "Yiaga",
         "source_detail": "Statement ahead of Ekiti governorship election, June 2026",
+        "source_url": "https://leadership.ng/yiaga-africa-deploys-272-observers-for-ekiti-governorship-poll/",
         "title": "Yiaga Africa deploys 272 observers for Ekiti governorship poll",
         "text": (
             "Ahead of the Ekiti State governorship election, Yiaga Africa "
