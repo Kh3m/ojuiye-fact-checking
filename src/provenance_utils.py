@@ -21,11 +21,15 @@ upgrade path is noted in the paper's future work.
 
 import hashlib
 import hmac
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # Simulates the shared secret used by the trusted feed signing process.
 # In production this would be a private key held only by the legitimate
 # publisher (NVD, MITRE, the vendor), never by document consumers.
-_TRUSTED_FEED_SECRET = b"simulated-trusted-feed-secret-key"
+_TRUSTED_FEED_SECRET = os.environ.get("SECRET_KEY").encode("utf-8")
 
 
 def sign_document(doc_text, source):
